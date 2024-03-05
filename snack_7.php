@@ -62,7 +62,7 @@ function averageNote($kid)
     return $sum / count($kid['notes']);
 }
 
-/* ********************************* */
+/* **********FABIO*********************** */
 //var_dump(array_sum($alumni[2]['notes']) / count($alumni[2]['notes']));
 
 foreach ($alumni as $kid) {
@@ -72,8 +72,8 @@ foreach ($alumni as $kid) {
     echo '</div>';
     echo '<br>';
 }
-/* però non cicla nel 'notes', bensì tiene sempre alumni[2] */
-/* ******************************* */
+/* !!!! però non cicla nel 'notes', bensì tiene sempre alumni[2] !!!!!*/
+/* ************ENDFABIO******************* */
 
 ?>
 
