@@ -1,16 +1,17 @@
 <?php
 /* Creare un array con 15 numeri casuali, tenendo conto che l’array non dovrà contenere lo stesso numero più di una volta */
+
 $array = [];
 
-while (count($array) < 15) {
+/* while (count($array) < 15) {
     $rdmNum = rand(0, 14);
     if (!in_array($rdmNum, $array)) {
         $array[] = $rdmNum; // due modi per fare la stessa cosa
         //array_push($array, $rdmNum);  
     }
-}
+} */
 
-var_dump($array);
+//var_dump($array);
 ?>
 
 
